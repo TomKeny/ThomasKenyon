@@ -13,6 +13,11 @@ function App() {
         </svg>
       </div>
       <div id="counterGradient" />
+      <div id="aboutText">
+        <h2 id="aboutTitle">Software and Game Developer</h2>
+        <p id="aboutDeets">all about me and what I do</p>
+      </div>
+
 
       <div id="footer">
         <p id="footerText">Email: tomkenyon2003@gmail.com</p>
