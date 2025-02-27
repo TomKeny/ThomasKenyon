@@ -18,6 +18,7 @@ import portfolioImg from "./assets/portf.png"
 import lin from "./assets/Lin.png"
 import insta from "./assets/insta.png"
 import github from "./assets/github.png"
+import oscill from "./assets/oscill.png"
 
 function App() {
   const [curProj,setCurProj] = useState("software")
@@ -91,7 +92,8 @@ const softwareProjects = [
   ["TODO list", "I used this basic project as a way to learn database management in react", toDo],
   ["Colour Pallete", "To learn how to use APIs I created a colour pallete generator which I still use to this day", pallete],
   ["Restaurant Full Stack", "To conclude our software digital skills bootcamp we created a full stack mock takeaway site", restaurant],
-  ["Portfolio", "This very site which is constantly evolving and expanding after each project", portfolioImg]
+  ["Portfolio", "This very site which is constantly evolving and expanding after each project", portfolioImg],
+  ["Oscilloscope", "I'm making a small oscillator program to get used to Web Audio API", oscill]
 ]
 
 export default App;

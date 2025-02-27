@@ -109,12 +109,13 @@
 }
 
 #projectSection {
-
+  border-top: solid rgba(134, 216, 236, 0.233) 2px;
 }
 
 #projectHeader {
   background-color: rgba(224, 241, 255, 0.479);
   padding: 10px;
+  border-bottom: solid rgba(134, 216, 236, 0.233) 2px;
 }
 
 #projectTitle {
