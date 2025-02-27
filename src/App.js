@@ -15,6 +15,9 @@ import toDo from "./assets/ToDo.png"
 import pallete from "./assets/ColourPallete.png"
 import restaurant from "./assets/restaurant.png"
 import portfolioImg from "./assets/portf.png"
+import lin from "./assets/Lin.png"
+import insta from "./assets/insta.png"
+import github from "./assets/github.png"
 
 function App() {
   const [curProj,setCurProj] = useState("software")
@@ -59,6 +62,11 @@ function App() {
       </div>
 
       <div id="footer">
+        <div id="links">
+          <a className='social' style={{backgroundImage: `url(${lin})`}} href="https://www.linkedin.com/in/thomaspkenyon/" target="blank"/>
+          <a className='social' style={{backgroundImage: `url(${github})`}} href="https://github.com/TomKeny" target="_blank"/>
+          <a className='social' style={{backgroundImage: `url(${insta})`}} href="https://www.instagram.com/frog.inapond/?next=%2Ffrog.inapond%2F" target="_blank" />
+        </div>
         <p id="footerText">Email: tomkenyon2003@gmail.com</p>
         <div id="footerBottom">
           <p id="copyright">© 2025 Thomas Kenyon</p>
@@ -78,7 +86,7 @@ const gameProjects = [
 
 const softwareProjects = [
   ["Journal App", "I created a journal website to help record all my notes for my software digital skills bootcamp", journal],
-  ["Keycode", "Whilst making a soundboard app, I ran into an issue with getting key information, I created this app to help fix this issue", keyCode],
+  ["Keycode", "Whilst making a soundboard app, I made this website to get accurate key information", keyCode],
   ["Piano Soundboard", "A small soundboard project involving a single octave of a piano", piano],
   ["TODO list", "I used this basic project as a way to learn database management in react", toDo],
   ["Colour Pallete", "To learn how to use APIs I created a colour pallete generator which I still use to this day", pallete],
