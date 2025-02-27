@@ -38,7 +38,7 @@ function App() {
       <div id="counterGradient" />
       <div id="aboutText">
         <h2 id="aboutTitle">Software and Game Developer</h2>
-        <p id="aboutDeets">all about me and what I do</p>
+        <p id="aboutDeets">I'm Tom and I am an aspiring game and <br/>software developer constantly looking <br/>to imrove my skills and learn new <br/>ones <br/><br/>I spend most of my time working<br/> on projects as well as learning <br/>new skills to make those <br/>projects a reality</p>
       </div>
 
       <div id="timelineSection">
