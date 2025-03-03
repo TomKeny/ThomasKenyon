@@ -118,7 +118,7 @@
   border-bottom: solid rgba(134, 216, 236, 0.233) 2px;
 }
 
-#projectTitle {
+#projectTitle,.skillsTitle {
   font-family: 'Courier New', Courier, monospace;
   font-size: 48px;
   width:fit-content;
@@ -163,6 +163,7 @@
   background-size: cover;
   text-decoration: none;
   color: black;
+  box-shadow: 2px 2px 10px rgba(130, 142, 148, 0.541);
 }
 
 .sinProjHead {
@@ -228,4 +229,54 @@
 
 #backButton:hover {
   background-color: rgba(180, 180, 180, 0.658);
+}
+
+#bottomProjects {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(219, 219, 219, 0.24));
+  height: 20px;
+  width: 100vw;
+  z-index: 10;
+}
+
+#skills {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  
+}
+#FrontEnd,#BackEnd,#GameDevSkills,#miscellaneous {
+  display: flex;
+  justify-content: center;
+}
+
+.skill {
+  background-color: rgba(180, 180, 180, 0.356);
+  width: 160px;
+  height: 240px;
+  border-radius: 10px;
+  margin: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-shadow: 1px 1px 10px rgba(107, 107, 107, 0.479);
+}
+.skillImg {
+  background-size: cover;
+  width: 140px;
+  margin: 10px;
+}
+
+.miniTitle {
+  font-size: 28px;
+  width:fit-content;
+  margin:auto;
+  padding:10px;
+  color: rgba(107, 107, 107, 0.767);
+}
+
+.skillName {
+  font-size: 28px;
+  width:fit-content;
+  margin:auto;
+  padding-top: 10px;
+  border-bottom: 2px solid rgba(107, 107, 107, 0.233);
 }

@@ -19,6 +19,23 @@ import insta from "../assets/insta.png"
 import github from "../assets/github.png"
 import oscill from "../assets/oscill.png"
 
+import api from "../skills/api.png"
+import blender from "../skills/blender.png"
+import csharp from "../skills/csharp.png"
+import css from "../skills/css.png"
+import githubLogo from "../skills/github.png"
+import godot from "../skills/godot.png"
+import html from "../skills/html.png"
+import jest from "../skills/jest.png"
+import js from "../skills/js.png"
+import mongodb from "../skills/mongodb.png"
+import nodejs from "../skills/nodejs.png"
+import reactLogo from "../skills/react.png"
+import sql from "../skills/sql.png"
+import ue from "../skills/ue.png"
+import unity from "../skills/unity.png"
+import virtualbox from "../skills/virtualbox.png"
+
 
 function Home () {
 
@@ -62,6 +79,100 @@ function Home () {
         }
         </div>
       </div>
+      <div id="skills">
+        <div id="bottomProjects"/>
+        <h1 className="skillsTitle">Skills</h1>
+        <h1 className="miniTitle">Front end</h1>
+        <div id="FrontEnd">
+          <div className="skill">
+            <p className="skillName">Javascript</p>
+            <img className="skillImg" src={js}></img>
+          </div>
+
+          <div className="skill">
+            <p className="skillName">HTML</p>
+            <img className="skillImg" src={html}></img>
+          </div>
+
+          <div className="skill">
+            <p className="skillName">React</p>
+            <img className="skillImg" src={reactLogo}></img>
+          </div>
+
+          <div className="skill">
+            <p className="skillName">CSS</p>
+            <img className="skillImg" src={css}></img>
+          </div>
+        </div>
+        <h1 className="miniTitle">Back end</h1>
+        <div id="BackEnd">
+          <div className="skill">
+            <p className="skillName">C#</p>
+            <img className="skillImg" src={csharp}></img>
+          </div>
+
+          <div className="skill">
+            <p className="skillName">MongoDB</p>
+            <img className="skillImg" src={mongodb}></img>
+          </div>
+
+          <div className="skill">
+            <p className="skillName">NodeJS</p>
+            <img className="skillImg" src={nodejs}></img>
+          </div>
+
+          <div className="skill">
+            <p className="skillName">SQL</p>
+            <img className="skillImg" src={sql}></img>
+          </div>
+
+          <div className="skill">
+            <p className="skillName">APIs</p>
+            <img className="skillImg" src={api}></img>
+          </div>
+        </div>
+        <h1 className="miniTitle">Game Development</h1>
+        <div id="GameDevSkills">
+          <div className="skill">
+            <p className="skillName">Unity</p>
+            <img className="skillImg" src={unity}></img>
+          </div>
+
+          <div className="skill">
+            <p className="skillName">Godot</p>
+            <img className="skillImg" src={godot}></img>
+          </div>
+
+          <div className="skill">
+            <p className="skillName">UE5</p>
+            <img className="skillImg" src={ue}></img>
+          </div>
+
+          <div className="skill">
+            <p className="skillName">Blender</p>
+            <img className="skillImg" src={blender}></img>
+          </div>
+        </div>
+
+        <h1 className="miniTitle">miscellaneous</h1>
+        <div id="miscellaneous">
+          <div className="skill">
+            <p className="skillName">GitHub</p>
+            <img className="skillImg" src={githubLogo}></img>
+          </div>
+
+          <div className="skill">
+            <p className="skillName">Jest</p>
+            <img className="skillImg" src={jest}></img>
+          </div>
+
+          <div className="skill">
+            <p className="skillName">Oraclebox</p>
+            <img className="skillImg" src={virtualbox}></img>
+          </div>
+        </div>
+      </div>
+
 
       <div id="footer">
         <div id="links">
