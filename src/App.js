@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router,Routes,Route,Link} from "react-router-dom"
+import {Router,Routes,Route,Link,HashRouter} from "react-router-dom"
 import Home from './pages/Home';
 
 import JournalApp from './pages/JournalApp'
@@ -19,31 +19,31 @@ import Wiggler from "./pages/Wiggler"
 
 function App() {
 return (
-  <Router>
+  <HashRouter >
       <div>
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Routes>
-          <Route path="/ThomasKenyon/" element={<Home/>} />
+          <Route path="/" element={<Home/>} />
 
-          <Route path="/ThomasKenyon/journalapp" element={<JournalApp />} />
-          <Route path="/ThomasKenyon/Keycode" element={<Keycode />} />
-          <Route path="/ThomasKenyon/Piano" element={<Piano />} />
-          <Route path="/ThomasKenyon/ToDo" element={<ToDo />} />
-          <Route path="/ThomasKenyon/Pallete" element={<Pallete />} />
-          <Route path="/ThomasKenyon/Restaurant" element={<Restaurant />} />
-          <Route path="/ThomasKenyon/Portfolio" element={<Portfolio />} />
-          <Route path="/ThomasKenyon/Oscilloscope" element={<Oscilloscope />} />
+          <Route path="/journalapp" element={<JournalApp />} />
+          <Route path="/Keycode" element={<Keycode />} />
+          <Route path="/Piano" element={<Piano />} />
+          <Route path="/ToDo" element={<ToDo />} />
+          <Route path="/Pallete" element={<Pallete />} />
+          <Route path="/Restaurant" element={<Restaurant />} />
+          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/Oscilloscope" element={<Oscilloscope />} />
 
-          <Route path="/ThomasKenyon/Retro" element={<Retro />} />
-          <Route path="/ThomasKenyon/VRF" element={<VRF />} />
-          <Route path="/ThomasKenyon/Tomb" element={<Tomb />} />
-          <Route path="/ThomasKenyon/Slime" element={<Slime />} />
-          <Route path="/ThomasKenyon/Wiggler" element={<Wiggler />} />
+          <Route path="/Retro" element={<Retro />} />
+          <Route path="/VRF" element={<VRF />} />
+          <Route path="/Tomb" element={<Tomb />} />
+          <Route path="/Slime" element={<Slime />} />
+          <Route path="/Wiggler" element={<Wiggler />} />
 
         </Routes>
       </div>
-    </Router>
+    </HashRouter>
 )
 }
 

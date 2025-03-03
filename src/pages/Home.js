@@ -191,22 +191,22 @@ function Home () {
 }
 
 const gameProjects = [
-  ["R.E.T.R.O", "A small retro themed platformer built during a 6 day game jam", retro, "/Retro"],
-  ["VR Factory", "I led a small team in creating a VR factory building simulator for an industry leading company", VRF, "/VRF"],
-  ["Tomb of Mythralis", "A small text based combat game using ASCII art I made as part of a small group", tombOfM, "/Tomb"],
-  ["Slime Adventure", "I used to work on a small game in my free time to improve my skills", slime, "/Slime"],
-  ["Wiggler", "I am teaching myself procedural animation for future projects I want to work on", procedural, "/Wiggler"]
+  ["R.E.T.R.O", "A small retro themed platformer built during a 6 day game jam", retro, "/ThomasKenyon/#/Retro"],
+  ["VR Factory", "I led a small team in creating a VR factory building simulator for an industry leading company", VRF, "/ThomasKenyon/#/VRF"],
+  ["Tomb of Mythralis", "A small text based combat game using ASCII art I made as part of a small group", tombOfM, "/ThomasKenyon/#/Tomb"],
+  ["Slime Adventure", "I used to work on a small game in my free time to improve my skills", slime, "/ThomasKenyon/#/Slime"],
+  ["Wiggler", "I am teaching myself procedural animation for future projects I want to work on", procedural, "/ThomasKenyon/#/Wiggler"]
 ]
 
 const softwareProjects = [
-  ["Journal App", "I created a journal website to help record all my notes for my software digital skills bootcamp", journal, "/journalapp"],
-  ["Keycode", "Whilst making a soundboard app, I made this website to get accurate key information", keyCode, "/Keycode"],
-  ["Piano Soundboard", "A small soundboard project involving a single octave of a piano", piano, "/Piano"],
-  ["TODO list", "I used this basic project as a way to learn database management in react", toDo, "/ToDo"],
-  ["Colour Pallete", "To learn how to use APIs I created a colour pallete generator which I still use to this day", pallete, "/Pallete"],
-  ["Restaurant Full Stack", "To conclude our software digital skills bootcamp we created a full stack mock takeaway site", restaurant, "/Restaurant"],
-  ["Portfolio", "This very site which is constantly evolving and expanding after each project", portfolioImg, "/Portfolio"],
-  ["Oscilloscope", "I'm making a small oscillator program to get used to Web Audio API", oscill, "/Oscilloscope"]
+  ["Journal App", "I created a journal website to help record all my notes for my software digital skills bootcamp", journal, "/ThomasKenyon/#/journalapp"],
+  ["Keycode", "Whilst making a soundboard app, I made this website to get accurate key information", keyCode, "/ThomasKenyon/#/Keycode"],
+  ["Piano Soundboard", "A small soundboard project involving a single octave of a piano", piano, "/ThomasKenyon/#/Piano"],
+  ["TODO list", "I used this basic project as a way to learn database management in react", toDo, "/ThomasKenyon/#/ToDo"],
+  ["Colour Pallete", "To learn how to use APIs I created a colour pallete generator which I still use to this day", pallete, "/ThomasKenyon/#/Pallete"],
+  ["Restaurant Full Stack", "To conclude our software digital skills bootcamp we created a full stack mock takeaway site", restaurant, "/ThomasKenyon/#/Restaurant"],
+  ["Portfolio", "This very site which is constantly evolving and expanding after each project", portfolioImg, "/ThomasKenyon/#/Portfolio"],
+  ["Oscilloscope", "I'm making a small oscillator program to get used to Web Audio API", oscill, "/ThomasKenyon/#/Oscilloscope"]
 ]
 
 export default Home
