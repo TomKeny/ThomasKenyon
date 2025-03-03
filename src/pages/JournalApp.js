@@ -8,7 +8,7 @@ function JournalApp () {
     <div id="siteContainer">
         <div id="header">
             <h1 id="mainTitle">Journal app</h1>
-            <a id="backButton" href="/">Home</a>
+            <a id="backButton" href="/ThomasKenyon/">Home</a>
         </div>
         <div id="headerGradient" />
 
