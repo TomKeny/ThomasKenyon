@@ -70,6 +70,8 @@
   position: relative;
   height: 600px;
   background-color: aqua;
+  background-image: url("./assets/aboutImage.png");
+  background-size: cover;
 }
 
 #aboutText {
