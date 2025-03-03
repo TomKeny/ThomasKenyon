@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/ThomasKenyon/static/css/main.3adb4e2e.css",
-    "main.js": "/ThomasKenyon/static/js/main.f675f08a.js",
+    "main.css": "/ThomasKenyon/static/css/main.66f09d35.css",
+    "main.js": "/ThomasKenyon/static/js/main.ff5e9467.js",
     "static/media/Piano.png": "/ThomasKenyon/static/media/Piano.842a757a4afd84c671b3.png",
     "static/media/restaurant.png": "/ThomasKenyon/static/media/restaurant.1ed36cf244f0a1ccd38d.png",
     "static/media/conveyors.png": "/ThomasKenyon/static/media/conveyors.455b2cee5ecd1707cb01.png",
     "static/media/virtualbox.png": "/ThomasKenyon/static/media/virtualbox.5dc074634936a33f98cd.png",
+    "static/media/aboutImage.png": "/ThomasKenyon/static/media/aboutImage.153abcc39b71f5359897.png",
     "static/media/jest.png": "/ThomasKenyon/static/media/jest.95bffbbd80a3ba10dfa4.png",
     "static/media/nodejs.png": "/ThomasKenyon/static/media/nodejs.aca5f5f1cd9de98d4edc.png",
     "static/media/godot.png": "/ThomasKenyon/static/media/godot.3c8068574e9c673c49cc.png",
@@ -27,11 +28,11 @@
     "static/media/react.png": "/ThomasKenyon/static/media/react.4837a4a0f7df1439a9a7.png",
     "static/media/api.png": "/ThomasKenyon/static/media/api.413f6deb5bd74e5323ac.png",
     "index.html": "/ThomasKenyon/index.html",
-    "main.3adb4e2e.css.map": "/ThomasKenyon/static/css/main.3adb4e2e.css.map",
-    "main.f675f08a.js.map": "/ThomasKenyon/static/js/main.f675f08a.js.map"
+    "main.66f09d35.css.map": "/ThomasKenyon/static/css/main.66f09d35.css.map",
+    "main.ff5e9467.js.map": "/ThomasKenyon/static/js/main.ff5e9467.js.map"
   },
   "entrypoints": [
-    "static/css/main.3adb4e2e.css",
-    "static/js/main.f675f08a.js"
+    "static/css/main.66f09d35.css",
+    "static/js/main.ff5e9467.js"
   ]
 }
