@@ -1,9 +1,15 @@
 import lin from "../assets/Lin.png"
 import insta from "../assets/insta.png"
 import github from "../assets/github.png"
-
+import journalappImg from "../assets/journalappProjImg.png"
+import { useEffect } from "react"
 
 function JournalApp () {
+
+    useEffect (() => {
+        window.scrollTo(0,0)
+    })
+    
     return (
     <div id="siteContainer">
         <div id="header">
@@ -11,6 +17,14 @@ function JournalApp () {
             <a id="backButton" href="/ThomasKenyon/">Home</a>
         </div>
         <div id="headerGradient" />
+
+        <div id="projectPageContent">
+            <div id="projectText">
+                <p id="pTextContent">text goes here</p>
+            </div>
+            <div id="projectGradient" />
+            <div id="projectImage" style={{backgroundImage: `url(${journalappImg})`, backgroundColor: `rgba(90, 189, 123, 0.568)`}}/>
+        </div>
 
 
         <div id="footer">

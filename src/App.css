@@ -42,7 +42,7 @@
 }
 
 #footer {
-  background-color: rgba(228, 228, 228, 0.37);
+  background-color: rgb(248, 248, 248);
   width: 100vw;
   height: 40px;
   margin-top: auto;
@@ -218,19 +218,19 @@
 #backButton {
   position:absolute;
   font-weight: bold;
+  color: white;
   top:40px;
   left:50px;
   font-size: 30px;
   text-decoration: none;
-  color: black;
-  background-color: rgba(202, 202, 202, 0.377);
+  background-color: rgba(187, 187, 187, 0.493);
   border-radius: 10px;
   padding: 15px;
   transition: background-color 0.5s;
 }
 
 #backButton:hover {
-  background-color: rgba(180, 180, 180, 0.658);
+  background-color: rgba(167, 167, 167, 0.726);
 }
 
 #bottomProjects {
@@ -281,4 +281,40 @@
   margin:auto;
   padding-top: 10px;
   border-bottom: 2px solid rgba(107, 107, 107, 0.233);
+}
+
+#projectPageContent {
+  display: flex;
+  min-height: 730px;
+  position: relative;
+  bottom: 0px;
+}
+
+#projectText {
+  width: 60%;
+  height: 1000px;;
+}
+
+#projectGradient {
+  position: absolute;
+  left:60%;
+  width: 40%;
+  top: 0px;
+  bottom: 0px;
+  background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(219, 219, 219, 0.089));
+}
+
+#projectImage {
+  width:40%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+#pTextContent {
+  margin-top: 10px;
+  font-size: 30px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
