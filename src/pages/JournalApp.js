@@ -20,7 +20,16 @@ function JournalApp () {
 
         <div id="projectPageContent">
             <div id="projectText">
-                <p id="pTextContent">text goes here</p>
+                <p className="pTextContent">During my software digital skills bootcamp I needed to keep notes of everything I was learning, and so I decided that the best way to do that would be by making a website and keeping my notes there. 
+                <br/><br/> 
+                My journal website started off with a page for each day of notes however, after learning the basics of react I converted the journal website into a single page react app to improve the user exeperience but mostly as a way to test my skills and reinforce my understanding of react. 
+                <br/><br/>
+                It contains a majority of my notes from my bootcamp as well as some in-depth looks at some of my projects from a technical standpoint, you can check it out <a href="https://tomkeny.github.io/journalapp/" target="_blank">here</a>.
+                <div className="borderline" />
+                One of the major technical challenges I faced with this project was storing the large amount of content for the journal, whilst some days only had a couple of paragraphs worth of notes, other days had in depth explanations into core concepts. To deal with this issue I stored all of the content in an array in a seperate react component and accessed it using indexing involving the week and day of the week that were being accessed. Inside the content array everything was stored in chronological order with comments to help find certain days.
+                <br/><br/>
+                Overall, I believe that for an earlier project it is coded quite well although there are some changes I would like to go back and make in the future as well as finishing off the final entries in week 11. The biggest change I would make would be to change it from a single page app to having a seperate page for each week because it currently has some issues with loading images when trying to load some of the larger entries and I believe breaking it up into pages could solve that issue. If you are interested in the code you can click <a href="https://github.com/TomKeny/journalapp" target="_blank">here</a> to access the github repository.
+                </p>
             </div>
             <div id="projectGradient" />
             <div id="projectImage" style={{backgroundImage: `url(${journalappImg})`, backgroundColor: `rgba(90, 189, 123, 0.568)`}}/>
