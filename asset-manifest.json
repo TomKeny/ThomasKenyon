@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ThomasKenyon/static/css/main.4586aeaa.css",
-    "main.js": "/ThomasKenyon/static/js/main.d18eae20.js",
+    "main.css": "/ThomasKenyon/static/css/main.59425cc4.css",
+    "main.js": "/ThomasKenyon/static/js/main.a544cc48.js",
     "static/media/Piano.png": "/ThomasKenyon/static/media/Piano.842a757a4afd84c671b3.png",
     "static/media/restaurant.png": "/ThomasKenyon/static/media/restaurant.1ed36cf244f0a1ccd38d.png",
     "static/media/conveyors.png": "/ThomasKenyon/static/media/conveyors.455b2cee5ecd1707cb01.png",
@@ -18,7 +18,7 @@
     "static/media/insta.png": "/ThomasKenyon/static/media/insta.fae9c02baf26fa22e8c7.png",
     "static/media/portf.png": "/ThomasKenyon/static/media/portf.cfd3d16756f4b73a95f0.png",
     "static/media/timelineDark.png": "/ThomasKenyon/static/media/timelineDark.6bc9139726891a9f1d7f.png",
-    "static/media/oscill.png": "/ThomasKenyon/static/media/oscill.bdbed79118328da68ca4.png",
+    "static/media/oscill.png": "/ThomasKenyon/static/media/oscill.5d8e424b4cad944359aa.png",
     "static/media/github.png": "/ThomasKenyon/static/media/github.b37bcf94ce950a87fd13.png",
     "static/media/ColourPallete.png": "/ThomasKenyon/static/media/ColourPallete.ff4adc3f64a7dbbeb8cd.png",
     "static/media/procedural.png": "/ThomasKenyon/static/media/procedural.1c7b06b170c0285c196a.png",
@@ -29,11 +29,11 @@
     "static/media/react.png": "/ThomasKenyon/static/media/react.4837a4a0f7df1439a9a7.png",
     "static/media/api.png": "/ThomasKenyon/static/media/api.413f6deb5bd74e5323ac.png",
     "index.html": "/ThomasKenyon/index.html",
-    "main.4586aeaa.css.map": "/ThomasKenyon/static/css/main.4586aeaa.css.map",
-    "main.d18eae20.js.map": "/ThomasKenyon/static/js/main.d18eae20.js.map"
+    "main.59425cc4.css.map": "/ThomasKenyon/static/css/main.59425cc4.css.map",
+    "main.a544cc48.js.map": "/ThomasKenyon/static/js/main.a544cc48.js.map"
   },
   "entrypoints": [
-    "static/css/main.4586aeaa.css",
-    "static/js/main.d18eae20.js"
+    "static/css/main.59425cc4.css",
+    "static/js/main.a544cc48.js"
   ]
 }
