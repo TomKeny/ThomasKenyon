@@ -45,6 +45,7 @@ function Home () {
     <div id="siteContainer">
       <div id="header">
         <h1 id="mainTitle">Thomas Kenyon</h1>
+        <p id="disclaimer">Site is currently a work in progress</p>
       </div>
       <div id="headerGradient" />
 
